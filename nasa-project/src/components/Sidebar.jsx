@@ -3,7 +3,7 @@ import React from 'react'
 export default function Sidebar(props) {
     const {data,handleToggleModal}=props;
   return (
-      <div className="sidebar">
+      <div onClick={handleToggleModal} className="sidebar">
             <div className="bgOverlay"></div>
             <div className="sidebarContents">
                 <h2>{data.title}</h2>
