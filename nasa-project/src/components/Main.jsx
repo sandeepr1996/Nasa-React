@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Main({data,handleToggleModal}) {
+export default function Main({data}) {
     
   return (
     <div className="imgContainer">

@@ -29,7 +29,7 @@ function App() {
   }
   return (
     <>
-      {loading?<Main data={data} handleToggleModal={handleToggleModal}/>:<div className='loadingState'><i className="fa fa-spinner" aria-hidden="true"></i></div>}
+      {loading?<Main data={data}/>:<div className='loadingState'><i className="fa fa-spinner" aria-hidden="true"></i></div>}
       {showModal?<Sidebar data={data} handleToggleModal={handleToggleModal}/>:''}
       {loading?<Footer data={data} handleToggleModal={handleToggleModal}/>:''}
     </>
